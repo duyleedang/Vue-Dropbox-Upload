@@ -1,11 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-export const Paths = {
-	Home: "/",
-	Auth: {
-		Login: "/auth/callback"
-	}
-};
-
 const routes = [
 	{
 		path: '/auth/callback'
